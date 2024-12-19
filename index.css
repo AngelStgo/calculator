@@ -1,0 +1,43 @@
+table {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid rgb(21, 35, 81);
+    /* border-collapse: collapse; */
+ } 
+
+ /* h2 {
+    text-shadow: 5px 3px;
+ } */
+
+thead > tr > th {
+    text-align: right;
+}
+
+
+ th, td {
+    border: 1px solid rgb(215, 4, 4);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+ }
+
+ 
+ td:hover {
+    background-color: rgb(128, 190, 240);
+    color: white;
+ }
+
+ table {
+    background-image: url(/examples/calculator/images/thor.jpeg);
+    background-size: cover;
+    /* the background-color works as a filter between the img and the table content */
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+ }
+
+ 
+ /* th:hover {
+    background-color: rgb(128, 190, 240);
+    color: white;
+ } */
